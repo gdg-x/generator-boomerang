@@ -1,5 +1,4 @@
 # Generator-boomerang
-[![Build Status](https://secure.travis-ci.org/joshuawoodward/generator-boomerang.png?branch=master)](https://travis-ci.org/joshuawoodward/generator-boomerang)
 
 A generator for Yeoman.
 
