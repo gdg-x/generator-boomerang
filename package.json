@@ -1,0 +1,48 @@
+{
+  "name": "generator-boomerang",
+  "version": "0.0.3",
+  "description": "GDG Boomerang generator for Yeoman",
+  "keywords": [
+    "gdg",
+    "boomerang"
+  ],
+  "homepage": "https://github.com/joshuawoodward/generator-boomerang",
+  "bugs": {
+    "url": "https://github.com/joshuawoodward/generator-boomerang/issues"
+  },
+  "author": {
+    "name": "Joshua Woodward",
+    "email": "jw@woodwardmedia.net",
+    "url": "https://github.com/joshuawoodward"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joshuawoodward/generator-boomerang.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.12.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.10.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "readme": "# Generator-boomerang\n[![Build Status](https://secure.travis-ci.org/joshuawoodward/generator-boomerang.png?branch=master)](https://travis-ci.org/joshuawoodward/generator-boomerang)\n\nA generator for Yeoman.\n\n## Getting started\n- Make sure you have [yo](https://github.com/yeoman/yo) installed:\n    `npm install -g yo`\n- Install the generator: `npm install -g generator-boomerang`\n- Run: `yo boomerang`\n\n## License\n[MIT License](http://en.wikipedia.org/wiki/MIT_License)\n",
+  "readmeFilename": "README.md",
+  "_id": "generator-boomerang@0.0.3",
+  "dist": {
+    "shasum": "001f86b9fd4d0a5d66b5a728e1d99b61f589e1bb"
+  },
+  "_from": "generator-boomerang@",
+  "_resolved": "https://registry.npmjs.org/generator-boomerang/-/generator-boomerang-0.0.3.tgz"
+}
