@@ -1,0 +1,73 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#">GDG[x]</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li class="active"><a href="#">Home</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <header>
+        <h1>generator-boomerang</h1>
+        <p>generator-boomerang is a Yeoman generator for GDG Boomerang.</p>
+        <ul>
+            <li><a href="http://github.com/gdg-x/boomerang">GDG Boomerang</a> makes it really easy to get a website up and running for your GDG chapter.</li>
+            <li><a href="http://yeoman.io">Yeoman</a> turbo charges your web development with a set of tools to help in your modern workflow.</li>
+        </ul>
+    </header>
+
+    <section>
+        <h3>How do I use generator-boomerang?</h3>
+        <p>You'll first have to setup yeoman. If you have Node.js installed it is as easy as running ...</p>
+        <p><pre>nmp install -g yo</pre></p>
+        <p>If you need help setting up node or yeoman check out their <a href="https://github.com/yeoman/yeoman/wiki/Getting-Started">getting started guide</a></p>
+    </section>
+
+    <section>
+        <h3>I have yeoman ready, now what?</h3>
+        <p>If you have your environment all setup and ready to go you can run</p>
+        <p>
+            <pre>npm install -g generator-boomerang  <span class="muted"># install generator</span>
+yo boomerang                        <span class="muted"># scaffold out a boomerang site</span></pre>
+        </p>
+    </section>
+
+    <section>
+        <h3>Just a few question.</h3>
+        <p>The generator will guide you through setup with a few questions. It's probably a good idea to have the answer to these before you begin.</p>
+        <p>
+            <pre>What is your GDG Chapter name?         <span class="muted"># This is what will show up in the header of navigation</span>
+What is your GDG Chapter Google+ ID?   <span class="muted"># the numerical id of your GDG Google+ chapter page</span>
+What is your Google API Key?           <span class="muted"># get this from <a href="https://code.google.com/apis/console">https://code.google.com/apis/console</a></span>
+What is your Picasa Web Album ID?      <span class="muted"># the numerical id of photo album that belongs to your Chapters +Page</span>
+                                       <span class="muted"># please note that it can NOT be related to an event album</span></pre>
+        </p>
+        <p>After you have answered all the questions, yo will build out your project. from there you can just run</p>
+        <p><pre>grunt server</pre></p>
+        <p>grunt will fire up a server and display your app.</p>
+    </section>
+
+    <section>
+        <h3>Is it really that easy?</h3>
+        <p>Yes.</p>
+    </section>
+
+    <section>
+        <h3>How do I get it on the web?</h3>
+        <p>Run</p>
+        <p><pre>grunt build</pre></p>
+        <p>This will build out your project, minify js/css and test it for errors. In your project folder you will get a <code>dist</code> folder. In there is the contents that you need to publish on your remote server.</p>
+        <p>Your done.</p>
+    </section>
+
+</div> <!-- /container -->
