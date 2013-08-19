@@ -30,7 +30,7 @@ BoomerangGenerator.prototype.askFor = function askFor() {
       message: 'What is your GDG Chapter Google+ ID?'
   },{
       name: 'googleAPIKey',
-      message: 'What is your Google API Key?\n(https://code.google.com/apis/console)'
+      message: 'What is your Google+ API Key?\n(https://code.google.com/apis/console)'
   },{
       name: 'picasaWebID',
       message: 'What is your Picasa Web Album ID?\n(Must belong to Chapter Google+ ID)'
