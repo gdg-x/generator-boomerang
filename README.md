@@ -1,6 +1,6 @@
 # Generator-boomerang
 
-A generator for Yeoman.
+A generator for [Yeoman](http://yeoman.io/).
 
 ## Getting started
 The step-by-step [Guide](http://gdg-x.github.io/generator-boomerang)
